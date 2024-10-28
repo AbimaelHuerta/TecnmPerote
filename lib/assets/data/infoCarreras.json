@@ -1,0 +1,58 @@
+[
+    {
+        "carrera": "Ingenieria Informatica",
+        "especialidad": "Innovación y desarrollo de proyectos de TIC´s",
+        "descripcion": "Diseña, gestiona y desarrolla proyectos de software profesional que contemple redes de comunicaciones, bases de datos y electronica, aplica herramientas computacionales, crea y administra redes de computadoras, selección, instalación y mantenimiento para la operación eficiente de los recursos informaticos.",
+        "logo": "lib/assets/image/informatica.png",
+        "reticula": "http://www.itsperote.edu.mx/img/Re_IINF.pdf"
+
+    },
+    {
+        "carrera": "Ingenieria Forestal",
+        "especialidad": "Manejo forestal integral sustentable",
+        "descripcion": "Conserva y administra los recursos natirales en los ecosistemas, cuida y aprovecha lo que el bosque nos brinda. Los prefesionales de esta ingenieria, se desarrollan en dependencias de todos los niveles de gobierno que tengan que ver con aspectos relacionados con la conservacion de recursos natirales.",
+        "logo": "lib/assets/image/forestal.png",
+        "reticula": "http://www.itsperote.edu.mx/img/Re_IFOR.pdf"
+
+        },
+    {
+        "carrera": "Ingenieria Industrial",
+        "especialidad": "Gestión administrativa para la calidad",
+        "descripcion": "Optimiza los procesos de una empresa. Analiza, evalúa  y ejectuta métodos de producción y proyectos empresariales con mejoreas continuas. Interviene en procesos productivos de diversas áreas tanto públicas como privadas tales como la mineria, industria, consultoria, recursos humanos, gestión ambiental, entre otras.",
+        "logo": "lib/assets/image/industrial.png",
+        "reticula": "http://www.itsperote.edu.mx/img/Re_IIND.pdf"
+
+    },
+    {
+        "carrera": "Ingenieria En Industrias Alimentarias",
+        "especialidad": "Sistema de gestión de calidad e inocuidad alimentaria",
+        "descripcion": "Desarrolla e innova, técnicas de conservación y procesis de la industria alimentaria. Inspecciona, evalúa y controla la producción mediante de distemas de inocuidad y calidad. Interviene en actividades académicas, de desarrollo e investigación, en el sector público o privado.",
+        "logo": "lib/assets/image/alimentarias.png",
+        "reticula": "http://www.itsperote.edu.mx/img/Re_IIAL.pdf"
+
+    },
+    {
+        "carrera": "Ingenieria Electromecánica",
+        "especialidad": "Administración de mantenimiento",
+        "descripcion": "Diseña e implementa estrategias para el control y automatización de procesos y dispositivos que permiten controlas actividades de operación d elos sistemas electromecánicos. Se desarrolla en el sector público o privado dentro de las siguientes áreas: industrias de transformación, procesos de producción, entre otras.",
+        "logo": "lib/assets/image/electromecanica.png",
+        "reticula": "http://www.itsperote.edu.mx/img/Re_IEME.pdf"
+
+        },
+    {
+        "carrera": "Ingenieria En Gestión Empresarial",
+        "especialidad": "Innovación, productividad y competividad empresarial",
+        "descripcion": "Utiliza técnocas y herramientas de ingenieria para la mejora de los processos empresariales, especializandose en la planeación, diseño, organización y control, puede desempeñarse en diversas áreas: recursos humanos, finanzas, mercadotecnia, producción, calidad, seguridad e higiene y control de almacenes.",
+        "logo": "lib/assets/image/gestion.png",
+        "reticula": "http://www.itsperote.edu.mx/img/Re_IGEM.pdf"
+
+    },
+    {
+        "carrera": "Ingenieria En Energias Renovables",
+        "especialidad": "Innovación en energias renovables",
+        "descripcion": "Elabora y ejecuta programas de ahorro energético y acciones que contribuyan a la seguridad energetica. Se especializa en la captacion, conduccion, almacenamiento y administracion de la energia proveniente de fuetes renovables, optimiza el uso de la energia en sistemas autónomos o interconectados, conduce auditorias energeticas.",
+        "logo": "lib/assets/image/renovables.png",
+        "reticula": "http://www.itsperote.edu.mx/img/Re_IENR.pdf"
+
+    }
+]
