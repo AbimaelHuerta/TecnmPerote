@@ -22,7 +22,7 @@ class InfoCarreras extends StatelessWidget {
             ),
             backgroundColor: const Color.fromARGB(255, 255, 255, 255),
             leading: Container(
-              margin: const EdgeInsets.all(8), 
+              margin: const EdgeInsets.all(8),
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
                 color:
@@ -31,7 +31,7 @@ class InfoCarreras extends StatelessWidget {
               child: IconButton(
                 icon: const Icon(
                   Icons.arrow_back,
-                  color: Colors.white, 
+                  color: Colors.white,
                 ),
                 onPressed: () {
                   Navigator.pop(context);
@@ -89,11 +89,13 @@ class InfoCarreras extends StatelessWidget {
                       // Botón de Retícula
                       ElevatedButton.icon(
                         onPressed: () async {
-                          if (await canLaunchUrl(Uri.parse(carrera.reticula))) {
-                            await launchUrl(Uri.parse(carrera.reticula),
-                                mode: LaunchMode.externalApplication);
-                          } else {
-                            throw 'No se puede abrir';
+                          try {
+                            final url = Uri.parse(carrera.reticula);
+                            if (await canLaunchUrl(url)) {
+                              await launchUrl(url);
+                            } 
+                          } catch (e) {
+                            throw 'Error al abrir el enlace: $e';
                           }
                         },
                         icon: const Icon(
@@ -105,7 +107,8 @@ class InfoCarreras extends StatelessWidget {
                           style: TextStyle(color: Color(0xFF007C48)),
                         ),
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+                          backgroundColor:
+                              const Color.fromARGB(255, 255, 255, 255),
                         ),
                       ),
                       const SizedBox(height: 15),
