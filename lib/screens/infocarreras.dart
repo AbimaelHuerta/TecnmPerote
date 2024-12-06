@@ -71,7 +71,7 @@ class InfoCarreras extends StatelessWidget {
                       Row(
                         children: [
                           const Icon(
-                            Icons.star,
+                            Icons.start,
                             color: Colors.yellow,
                             size: 20,
                           ),

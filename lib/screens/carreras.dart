@@ -116,10 +116,9 @@ class _CarrerasState extends State<Carreras> {
                               backgroundColor:
                                   const Color.fromARGB(255, 255, 255, 255)),
                         ),
-                        
                         ElevatedButton.icon(
                           onPressed: () {
-                           showDialog(
+                            showDialog(
                                 context: context,
                                 builder: (BuildContext context) {
                                   return AlertDialog(
@@ -311,8 +310,10 @@ class _CarrerasState extends State<Carreras> {
 
 Widget _buildCard(Carrera carrera, BuildContext context) {
   void navigateToDetail(BuildContext context, Carrera carrera) {
-    Navigator.push(context,
-        MaterialPageRoute(builder: (context) => HomeDetails(carrera: carrera)));
+    Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (context) => CarrerasDetails(carrera: carrera)));
   }
 
   return Expanded(
@@ -346,8 +347,10 @@ Widget _buildCard(Carrera carrera, BuildContext context) {
 
 Widget _buildCardfirts(Carrera carrera, BuildContext context) {
   void navigateToDetail(BuildContext context, Carrera carrera) {
-    Navigator.push(context,
-        MaterialPageRoute(builder: (context) => HomeDetails(carrera: carrera)));
+    Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (context) => CarrerasDetails(carrera: carrera)));
   }
 
   return Column(
