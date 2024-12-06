@@ -22,7 +22,7 @@ class _CarrerasState extends State<Carreras> {
     _loadCarreras();
     _loadMaestria();
   }
-
+//Carga de datos desde el json maestrias
   Future<void> _loadMaestria() async {
     final String response =
         await rootBundle.loadString('lib/assets/data/infoMaestrias.json');
@@ -31,7 +31,7 @@ class _CarrerasState extends State<Carreras> {
       maestria = data.map((json) => Carrera.fromJson(json)).toList();
     });
   }
-
+//carga de datos desde el json carreras
   Future<void> _loadCarreras() async {
     final String response =
         await rootBundle.loadString('lib/assets/data/infoCarreras.json');
@@ -161,7 +161,7 @@ class _CarrerasState extends State<Carreras> {
                           'Ingenierías',
                           style: TextStyle(
                             color: Colors
-                                .white, // Color blanco para contrastar con el gradiente
+                                .white, 
                             fontWeight: FontWeight.bold,
                             fontSize: 28,
                           ),
@@ -307,8 +307,9 @@ class _CarrerasState extends State<Carreras> {
     );
   }
 }
-
+//contruye las cartas de los logos de las carreras en un diseño de 2 filas
 Widget _buildCard(Carrera carrera, BuildContext context) {
+  //Método para la navegacion hacia la carreras dependiendo el seleccionado 
   void navigateToDetail(BuildContext context, Carrera carrera) {
     Navigator.push(
         context,
@@ -344,7 +345,7 @@ Widget _buildCard(Carrera carrera, BuildContext context) {
     ),
   );
 }
-
+//Construye las cartas principales en un diseño 1,2,2
 Widget _buildCardfirts(Carrera carrera, BuildContext context) {
   void navigateToDetail(BuildContext context, Carrera carrera) {
     Navigator.push(

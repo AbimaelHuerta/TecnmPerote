@@ -38,6 +38,8 @@ android {
         applicationId = "com.example.tecnmperote"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
+
+        //Versiones minimas a correr en la app
         minSdkVersion= 21
         targetSdkVersion= 33
         versionCode = flutterVersionCode.toInteger()

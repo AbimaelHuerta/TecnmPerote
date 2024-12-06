@@ -1,3 +1,4 @@
+//clase del objeto Carrera para su manipulación
 class Carrera {
   final String carrera;
   final String especialidad;
@@ -12,7 +13,7 @@ class Carrera {
       required this.especialidad,
       required this.reticula
       });
-
+//constructor que crea instancias o objetos de la clase carrera
   factory Carrera.fromJson(Map<String, dynamic> json) {
     return Carrera(
         carrera: json['carrera'],

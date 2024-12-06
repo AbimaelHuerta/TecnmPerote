@@ -89,6 +89,7 @@ class InfoCarreras extends StatelessWidget {
                       // Botón de Retícula
                       ElevatedButton.icon(
                         onPressed: () async {
+                          //Manejador de Url's (Actualizar los permisos y codigo si es necesarios segun las versiones de android que salgan posteriormente)
                           try {
                             final url = Uri.parse(carrera.reticula);
                             if (await canLaunchUrl(url)) {
